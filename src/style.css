@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.list-container {
+  border: 1px solid gray;
+  width: 50%;
+  margin: 150px auto;
+  box-shadow: -5px 5px 10px 5px rgb(209, 206, 206);
+}
+
+.task-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.fa-solid {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.add__task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 0.7rem;
+}
+
+.add-task {
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  padding: 0 0.5rem;
+}
+
+input[type="checkbox"] {
+  margin-right: 15px;
+}
+
+.list-description {
+  border: none;
+  outline: none;
+  background: none;
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem;
+}
+
+.list-item img {
+  width: 15px;
+  height: 35px;
+  cursor: grab;
+}
+
+.clear-btn {
+  width: 100%;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.trash-icon {
+  margin: 0 10px;
+}
+
+.selected {
+  background-color: yellow;
+}
+
+.hidden {
+  display: none;
+}
+
+.line {
+  text-decoration: line-through;
+}
